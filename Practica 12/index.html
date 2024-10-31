@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estacionamiento de Autos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Estacionamiento de Autos</h1>
+
+    <div>
+        <h3>Entrada de Auto</h3>
+        <label for="placas">Placas:</label>
+        <input type="text" id="placas" required><br>
+        <label for="propietario">Propietario:</label>
+        <input type="text" id="propietario" required><br>
+        <button id="entradaAutoBtn">Ingresar Auto</button>
+    </div>
+
+    <h3>Autos en el Estacionamiento</h3>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Placas</th>
+                <th>Propietario</th>
+                <th>Hora de Entrada</th>
+            </tr>
+        </thead>
+        <tbody id="tablaEstacionamiento"></tbody>
+    </table>
+
+    <button id="salidaAutoBtn">Atender Auto</button>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

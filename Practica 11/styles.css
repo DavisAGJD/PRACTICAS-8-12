@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+}
+
+#carros {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.carro-enfilado {
+    margin: 0 10px;
+}
+
+.carro {
+    width: 100px;
+    height: 60px;
+}
+
+.etiqueta {
+    margin-top: 5px;
+    font-weight: bold;
+    background-color: #ccc;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+#paleta-colores {
+    margin-bottom: 20px;
+}
+
+.color {
+    width: 100px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1.1em;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.color.rojo {
+    background-color: red;
+}
+
+.color.verde {
+    background-color: green;
+}
+
+.color.naranja {
+    background-color: orange;
+}
+
+.color.amarillo {
+    background-color: yellow;
+    color: black;
+}
+
+#record {
+    font-size: 1.2em;
+    margin-top: 20px;
+}

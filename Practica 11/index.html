@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juego Pintar Coches</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Juego Pintar Coches</h1>
+
+    <div id="carros">
+        <!-- Coches que se van enfilando -->
+        <div class="carro-enfilado">
+            <img src="carro.png" class="carro" id="carro1" alt="Carro 1">
+            <p class="etiqueta" id="etiqueta1">naranja</p>
+        </div>
+        <div class="carro-enfilado">
+            <img src="carro.png" class="carro" id="carro2" alt="Carro 2">
+            <p class="etiqueta" id="etiqueta2">rojo</p>
+        </div>
+        <div class="carro-enfilado">
+            <img src="carro.png" class="carro" id="carro3" alt="Carro 3">
+            <p class="etiqueta" id="etiqueta3">verde</p>
+        </div>
+        <div class="carro-enfilado">
+            <img src="carro.png" class="carro" id="carro4" alt="Carro 4">
+            <p class="etiqueta" id="etiqueta4">naranja</p>
+        </div>
+        <div class="carro-enfilado">
+            <img src="carro.png" class="carro" id="carro5" alt="Carro 5">
+            <p class="etiqueta" id="etiqueta5">amarillo</p>
+        </div>
+    </div>
+
+    <div>
+        <button style="background-color: red;" onclick="pintarCarro('rojo')">ROJO</button>
+        <button style="background-color: green;" onclick="pintarCarro('verde')">VERDE</button>
+        <button style="background-color: orange;" onclick="pintarCarro('naranja')">NARANJA</button>
+        <button style="background-color: yellow;" onclick="pintarCarro('amarillo')">AMARILLO</button>
+    </div>
+    
+
+    <div id="record">
+        <p>Carros Pintados: <span id="carrosPintados">0</span></p>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>

@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 20px;
+}
+
+h1, h3 {
+    color: #003366;
+}
+
+#formulario {
+    margin-bottom: 20px;
+}
+
+input, select, button {
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #003366;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #003366;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    background-color: #e6f2ff;
+}
+
+button {
+    background-color: #006699;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005580;
+}
+
+button:active {
+    transform: scale(0.98); /* Efecto al presionar */
+}
+
+#tablaClientes tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
